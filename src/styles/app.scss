@@ -33,6 +33,7 @@ a {
 @import "home";
 @import "cart";
 @import "shipping";
+@import "login";
 @import "admin-styles/dashboard";
 @import "admin-styles/products";
 @import "admin-styles/chart";
@@ -71,6 +72,12 @@ a {
       @include flex(column, flex-start, center, 0.25rem);
     }
   }
+}
+
+.heading {
+  @include heading;
+  margin: 1rem 0;
+  text-align: center;
 }
 
 .admin-container {
